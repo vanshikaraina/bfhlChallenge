@@ -17,9 +17,12 @@ function App() {
         .map((item) => item.trim())
         .filter((item) => item !== "");
 
-      const response = await axios.post("http://localhost:3000/bfhl", {
-        data: formattedData,
-      });
+const response = await axios.post(
+  "https://bfhlchallenge-i3f2.onrender.com/bfhl",
+  {
+    data: formattedData,
+  }
+);
 
       setResult(response.data);
     } catch (err) {
