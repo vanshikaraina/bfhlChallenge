@@ -154,3 +154,17 @@ button {
   transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
   box-shadow: 0 4px 14px rgba(102, 126, 234, 0.4);
 }
+textarea {
+  width: 100%;
+  min-height: 140px;
+  padding: 16px 18px;
+  border-radius: 14px;
+  border: 2px solid #e2e8f0;
+  font-size: 15px;
+  font-family: inherit;
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  background: #fafbfc;
+  color: #000; /* yeh line add ki — typed text ab black */
+}
